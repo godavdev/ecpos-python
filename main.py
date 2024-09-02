@@ -19,7 +19,7 @@ app = FastAPI()
 @app.get("/")
 def hello():
     """HELLO ROUTE"""
-    return "What you doing here? ichiban.team"
+    return "ichiban.team"
 
 
 @app.post("/")
