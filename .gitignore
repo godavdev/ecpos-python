@@ -1,5 +1,4 @@
 /.venv
 /build
-/dist
 /ticket-client.spec
 plugin-pv.spec
