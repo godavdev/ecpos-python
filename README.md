@@ -1,2 +1,4 @@
-# Ticket client
-pyinstaller ./main.py --onefile --name plugin-pv  --collect-data escpos --noconsole
+# Build with this command
+```bash
+pyinstaller ./main.py --onefile --noconsole --name plugin-pv  --collect-data escpos
+``` 
