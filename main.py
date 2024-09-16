@@ -1,5 +1,5 @@
 """PLUGIN TICKET"""
-
+import sys
 import base64
 from io import BytesIO
 from multiprocessing import freeze_support
@@ -11,6 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from uvicorn import run
 from pydantic import BaseModel
 
+sys.stdout = open('logs.txt', 'w', encoding='utf-8')
 
 class DataImage(BaseModel):
     """IMAGE CLASS"""
